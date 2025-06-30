@@ -1,0 +1,194 @@
+[
+    {
+        "fallback": false,
+        "iconPath": ":amazon",
+        "id": "2269fa71",
+        "name": "Amazon.de",
+        "trigger": "ade",
+        "url": "https://www.amazon.de/s?k=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "3d63f15b",
+        "name": "Amazon.in",
+        "trigger": "ain",
+        "url": "https://www.amazon.in/s?k=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":gpt",
+        "id": "cd0437bb",
+        "name": "Chat GPT",
+        "trigger": "gpt",
+        "url": "https://chat.openai.com/?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "37465ab8",
+        "name": "Dictionary",
+        "trigger": "dic",
+        "url": "https://www.dictionary.com/browse/%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":duckduckgo",
+        "id": "203d44ad",
+        "name": "DuckDuckGo",
+        "trigger": "d",
+        "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":ebay",
+        "id": "f1b85dd5",
+        "name": "Ebay",
+        "trigger": "eb",
+        "url": "http://www.ebay.com/sch/i.html?_nkw=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "5f7009a4",
+        "name": "Exa.ai",
+        "trigger": "e",
+        "url": "https://exa.ai/search?q=%s&filters=%7B%22numResults%22%3A30%2C%22domainFilterType%22%3A%22include%22%2C%22type%22%3A%22auto%22%2C%22text%22%3A%22%5C%22true%5C%22%22%2C%22density%22%3A%22compact%22%2C%22useAutoprompt%22%3Atrue%2C%22resolvedSearchType%22%3A%22keyword%22%7D&resolvedSearchType=keyword"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":github",
+        "id": "e75db3ab",
+        "name": "GitHub",
+        "trigger": "gh",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":google",
+        "id": "facbc07a",
+        "name": "Google",
+        "trigger": "g",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "319c28fd",
+        "name": "Google Images",
+        "trigger": "img",
+        "url": "https://www.google.com/search?q=%s&tbm=isch"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":maps",
+        "id": "4125a157",
+        "name": "Google Maps",
+        "trigger": "maps",
+        "url": "https://www.google.com/maps/search/%s/"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":scholar",
+        "id": "d96d2cf7",
+        "name": "Google Scholar",
+        "trigger": "gsch",
+        "url": "https://scholar.google.com/scholar?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":google_translate",
+        "id": "c0a5a1ac",
+        "name": "Google Translate",
+        "trigger": "translate",
+        "url": "https://translate.google.com/?text=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "19e4cc3a",
+        "name": "HackerNews",
+        "trigger": "hn",
+        "url": "https://hn.algolia.com/?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "0da8b404",
+        "name": "Marginalia",
+        "trigger": "m",
+        "url": "https://marginalia-search.com/search?query=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "7a1fc642",
+        "name": "Perplexity",
+        "trigger": "p",
+        "url": "https://www.perplexity.ai/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "5d97adad",
+        "name": "Reddit",
+        "trigger": "r",
+        "url": "https://www.reddit.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "e140656e",
+        "name": "Thread Reader",
+        "trigger": "unroll",
+        "url": "https://threadreaderapp.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "09bee5d1",
+        "name": "Twitter",
+        "trigger": "x",
+        "url": "https://x.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "abe1ddfe",
+        "name": "Wikipedia",
+        "trigger": "w",
+        "url": "https://en.wikipedia.org/wiki/%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":wolfram",
+        "id": "1cf3b873",
+        "name": "Wolfram Alpha",
+        "trigger": "wa",
+        "url": "https://www.wolframalpha.com/input/?i=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":youtube",
+        "id": "75b5e312",
+        "name": "YouTube",
+        "trigger": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "aff7277c",
+        "name": "arxiv",
+        "trigger": "arch",
+        "url": "https://arxiv.org/search/?query=%s&searchtype=all"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "031fbb40",
+        "name": "thesaurus",
+        "trigger": "t",
+        "url": "https://www.thesaurus.com/browse/%s"
+    }
+]
