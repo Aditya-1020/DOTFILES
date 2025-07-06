@@ -4,7 +4,13 @@ startup_mode = "Maximized"
 
 [font]
 size = 17.0
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font Mono", style = "Bold Italic" }
+
+builtin_box_drawing = true
+
 
 [colors.primary]
 background = "#000000"
